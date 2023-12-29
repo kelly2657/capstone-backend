@@ -1,0 +1,44 @@
+.profile-avatar {
+  width: 15rem !important;
+  height: 15rem !important;
+  cursor: pointer;
+}
+
+.css-1ps6pg7-MuiPaper-root {
+  zoom: 0.9;
+  height: 51rem;
+  padding: 0.5rem;
+  td {
+    border: 1px solid white !important;
+  }
+  .MainLayout-container {
+    overflow: hidden !important;
+  }
+}
+.MainLayout-flexRow:last-child {
+  height: 40rem !important;
+}
+.Cell-cell {
+  height: 2rem !important;
+  border: 1px solid #ccc !important;
+}
+.TickCell-cell {
+  height: 2rem !important;
+  border: 1px solid white !important;
+}
+.Label-label {
+  height: 2rem !important;
+  line-height: 2rem !important;
+}
+.Label-emptyLabel {
+  height: 1rem !important;
+}
+.Label-emptyLabel:last-child {
+  height: calc(1rem - 1px) !important;
+}
+.css-ctrbc3 {
+  width: 49rem;
+}
+.Overlay-fullSize {
+  width: 35rem !important;
+}

@@ -1,0 +1,57 @@
+.sign {
+    .sign-section {
+        width: 30rem;
+        margin: 0 auto;
+        .sign-input-wrapper {
+            width: 30rem;
+            height: 10rem;
+            margin-bottom: 2.5rem;
+            padding: 1.5rem 5rem;
+            // background-color: #fafafa;
+            box-shadow: 0 0 2px black;
+            border-radius: 0.5rem;
+            input {
+                display: block;
+                width: 20rem;
+                heighT: 3rem;
+                border: none;
+                outline: 1px solid #ccc;
+                border-radius: 0.5rem;
+                padding: 0 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+    }
+
+}
+
+.social-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 auto 0.75rem;
+    outline: 1px solid #ccc;
+    .social-button-link {
+        text-decoration: none;
+        color: black;
+        height: 3rem;
+        line-height: 3rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    cursor: pointer;
+    svg {
+        margin: 0 14px 0 8px;
+    }
+    span {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+}

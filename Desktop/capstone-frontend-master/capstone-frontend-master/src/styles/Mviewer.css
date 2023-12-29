@@ -1,0 +1,46 @@
+pre {
+    white-space: pre;
+    margin-top: 1rem;
+    /* border: 1px solid lightgray; */
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.textarea {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif;
+    border: none;
+    resize: none;
+  }
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .toolbar-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .toolbar-button:hover {
+    background-color: #f7f7f7;
+    border-color: #aaa;
+  }
